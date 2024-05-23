@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Archivo", sans-serif;
+}
+
+.logoautoajuda{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+    width: 400px;
+    height: auto;
+}
+
+#integrantes{
+    position: absolute;
+    bottom: 50px;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 50px;
+    width: 400px;
+    height: auto;
+    color: #00A1FC;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 600px;
+    height: 500px;
+    border: 4px solid #7D7D7D;
+    border-radius: 20px;
+    background-color: #DCDCDC;
+    padding: 20px;
+}
+
+#bot{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+label{
+    font-weight: 800;
+}
+
+.mensagem-listbot, .mensagem-listuser{
+    list-style: none;
+    padding: 30px;
+    width: 100%;
+    font-family: "Archivo", sans-serif;
+}
+
+.mensagembot{
+    margin-left: 25px;
+    margin-right: 250px;
+}
+
+.mensagem-listuser{
+    justify-content: flex-end;
+    text-align: right;
+}
+
+.mensagemuser{
+    margin-left: 365px;
+    text-align: left;
+}
+
+#usuario{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    justify-content: flex-end;
+}
+
+.search{
+    background-color: white;
+    width: 85%;
+    height: 45px;
+    margin-top: auto; /* Adiciona espaçamento automático no topo */
+    border-radius: 30px;
+    border: 1px solid #595959;
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+}
+
+.search input{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-weight: 500;
+}
+
+.search .bi{
+    padding-right: 15px;
+}
+
+footer{
+    position: absolute;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    height: 9%;
+    width: 100vw;
+    bottom: 0;
+    right: 0; 
+    left: 0;
+}
+
+.footercontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    box-sizing: border-box;
+    font-size: larger;
+}
+
+#portologorodape{
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+}
+
+.socialicons{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+#textorodape{
+    font-family: "Inter", sans-serif; 
+    color: white;
+    justify-content: center;
+}
+
+@media (max-width: 768px) {
+
+    footer {
+        height: auto;
+    }
+
+    .footercontent {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .chat-container{
+        width: 550px ;
+    }
+    
+ }
+
+
+@media (max-width: 576px) {
+
+    footer {
+        height: auto;
+    }
+
+    .footercontent {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    
+    }
+
+    .chat-container{
+        width: 530px ;
+    }
+    
+
+    }
+ 

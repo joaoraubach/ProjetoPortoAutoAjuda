@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Archivo", sans-serif;
+}
+
+.logoautoajuda {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+    width: 400px;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 125px;
+    width: 400px;
+    height: auto;
+    font-size: 65px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    font-weight: 350;
+    font-size: 35px;
+}
+
+h2 a {
+    text-decoration: none;
+    color: black;
+}
+
+h2 a:hover {
+    color: #00A3FF;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 225px;
+    gap: 40px;
+    padding-left: 100px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    max-width: 700px;
+}
+
+.item {
+    width: 150px;
+    height: 150px;
+    background-color: #00A3FF;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+}
+
+.foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+.infos {
+    margin-left: 20px;
+    text-decoration: none;
+}
+
+footer {
+    position: absolute;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    height: 9%;
+    width: 100vw;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+.footercontent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    box-sizing: border-box;
+    font-size: larger;
+}
+
+#portologorodape {
+    max-width: 100%;
+    width: 200px;
+    height: auto;
+}
+
+.socialicons {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+
+#textorodape {
+    font-family: "Inter", sans-serif;
+    color: white;
+    justify-content: center;
+}
+
+/* Responsividade */
+
+@media (max-width: 1400px) {
+    .logoautoajuda {
+        width: 300px;
+    }
+
+    h1{
+        font-size: 50px;
+        display: flex; 
+        justify-content: center; 
+    }
+
+    h2 {
+        font-size: 25px; /* Ajuste o tamanho do h2 */
+    }
+}
+
+@media (max-width: 768px) {
+    .logoautoajuda {
+        width: 250px;
+    }
+
+    h1 {
+        width: 200px;
+        font-size: 40px;
+    }
+
+    .main-container {
+        padding-left: 50px;
+    }
+
+    .container {
+        max-width: 500px;
+    }
+
+    .item {
+        width: 120px;
+        height: 120px;
+    }
+
+    .foto {
+        width: 120px;
+        height: 120px;
+    }
+
+    .infos {
+        font-size: 14px; 
+        margin-top: 5px; 
+    }
+
+    h2 {
+        font-size: 25px; /* Ajuste o tamanho do h2 */
+    }
+
+    h1{
+        font-size: 40px;
+        display: flex; 
+        justify-content: center; 
+    }
+
+    footer {
+        height: auto;
+    }
+
+    .footercontent {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .logoautoajuda {
+        width: 250px;
+    }
+
+    h1 {
+        width: 150px;
+        font-size: 30px;
+    }
+
+    .main-container {
+        padding-left: 20px;
+    }
+
+    .container {
+        max-width: 300px;
+    }
+
+    .item {
+        width: 100px;
+        height: 100px;
+    }
+
+    .foto {
+        width: 100px;
+        height: 100px;
+    }
+
+    .infos {
+        font-size: 12px; 
+        margin-top: 2px; 
+    }
+
+    h1{
+        font-size: 40px;
+        display: flex; 
+        justify-content: center; 
+    }
+
+    h2 {
+        font-size: 17px; 
+    }
+
+    footer {
+        height: auto;
+    }
+
+    .footercontent {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+}
