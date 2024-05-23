@@ -15,6 +15,12 @@
     height: auto;
 }
 
+a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
 h1 {
     position: absolute;
     top: 0;
